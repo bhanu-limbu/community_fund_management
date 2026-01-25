@@ -47,6 +47,11 @@ This project demonstrates:
 
 ## 📸 Project Preview
 
+### 🏠 Home Page
 ![Dashboard](screenshots/mainwindow.png)
+
+### 🔐 Login Page
 ![Login Page](screenshots/loginwindow.png)
+
+### 📊 User Dashboard
 ![User Dashboard](screenshots/userdashboard.png)
