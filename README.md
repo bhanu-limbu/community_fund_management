@@ -44,3 +44,9 @@ This project demonstrates:
 	•	User & admin role management
 	•	PHP–MySQL integration
 	•	Web-based banking workflows# bank-management
+
+## 📸 Project Preview
+
+![Dashboard](screenshots/mainwindow.png)
+![Login Page](screenshots/loginwindow.png)
+![User Dashboard](screenshots/userdashboard.png)
