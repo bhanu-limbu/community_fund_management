@@ -21,7 +21,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Dashboard - Bank Management System</title>
+    <title>User Dashboard - Community Fund Management</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -76,7 +76,7 @@ $conn->close();
         </main>
 
         <footer class="footer">
-            <p>&copy; 2026 Bank Management System. All rights reserved.</p>
+            <p>&copy; 2026 Community Fund Management. All rights reserved.</p>
         </footer>
     </div>
 </body>

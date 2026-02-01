@@ -94,14 +94,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - Bank Management System</title>
+    <title>Register - Community Fund Management</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <header class="header">
             <h1>🏦 Open New Account</h1>
-            <p class="tagline">Join us and start banking today</p>
+            <p class="tagline">Join us and start funding today</p>
         </header>
 
         <main class="main-content">
@@ -117,14 +117,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <a href="login.php" class="btn btn-primary">Go to Login</a>
                     </div>
                 <?php else: ?>
-                    <div class="alert alert-info">
+                    <!-- <div class="alert alert-info">
                         <strong>📋 Registration Requirements:</strong>
                         <ul style="margin: 10px 0 0 20px; text-align: left;">
                             <li>Password: At least 6 characters (letters and/or numbers only)</li>
                             <li>Contact: Exactly 10 digits (numbers only)</li>
                             <li>Account will be activated after admin approval</li>
                         </ul>
-                    </div>
+                    </div> -->
 
                     <form method="POST" action="" id="registerForm">
                         <div class="form-group">
@@ -175,7 +175,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </main>
 
         <footer class="footer">
-            <p>&copy; 2026 Bank Management System. All rights reserved.</p>
+            <p>&copy; 2026 Community Fund Management. All rights reserved.</p>
         </footer>
     </div>
 

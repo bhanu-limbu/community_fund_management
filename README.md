@@ -1,6 +1,6 @@
-🏦 Bank Management System (Web Application)
+🏦 Community Fund Management (Web Application)
 
-A simple and secure web-based Bank Management System built using PHP, MySQL, HTML, CSS, and JavaScript, designed for educational and small-scale banking purposes.
+A simple and secure web-based Community Fund Management built using PHP, MySQL, HTML, CSS, and JavaScript, designed for educational and small-scale banking purposes.
 
 ✨ Key Features
 

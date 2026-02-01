@@ -1,8 +1,8 @@
--- Bank Management System Database
+-- Community Fund Management Database
 -- Run this script in phpMyAdmin to create the database and tables
 
-CREATE DATABASE IF NOT EXISTS bank_management_system;
-USE bank_management_system;
+CREATE DATABASE IF NOT EXISTS community_fund_management;
+USE community_fund_management;
 
 -- Table: user_accounts
 CREATE TABLE IF NOT EXISTS user_accounts (
@@ -48,11 +48,6 @@ CREATE TABLE IF NOT EXISTS transaction_history (
 -- Username: admin@bank.com | Password: admin123
 INSERT INTO admin_accounts (name, email, password) VALUES 
 ('System Admin', 'admin@bank.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
-
--- Sample approved user for testing (optional)
--- Account: ACC1001 | Password: user123
-INSERT INTO user_accounts (account_no, name, email, password, contact, address, is_approved) VALUES 
-('ACC1001', 'John Doe', 'john@example.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', '9876543210', '123 Main Street, City', 1);
 
 INSERT INTO amount (account_no, balance) VALUES 
 ('ACC1001', 5000.00);
